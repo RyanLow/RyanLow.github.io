@@ -11,5 +11,5 @@ let typeItInstance = new TypeIt('#descriptor', {
     breakLines: false,
     lifeLike: true,
     loop: true,
-    loopDelay: [2500, 1500]
+    loopDelay: [1500, 2500]
 }).go();

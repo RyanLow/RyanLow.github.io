@@ -1,7 +1,7 @@
 body {
   background-color: #262626;
   font: 0.9em "Courier New", monospace;
-  color: #FFFFFF;
+  color: #d0d0d0;
   margin: 0;
 }
 body > div {
@@ -21,7 +21,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 a:hover {
@@ -29,7 +29,7 @@ a:hover {
 }
 
 ::selection {
-  background: #3399FF;
+  background: #4b9fff;
 }
 
 @media only screen and (min-width: 480px) {
