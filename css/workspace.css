@@ -2,6 +2,7 @@ body {
   background-color: #262626;
   font: 0.9em "Courier New", monospace;
   color: #FFFFFF;
+  margin: 0;
 }
 body > div {
   position: absolute;

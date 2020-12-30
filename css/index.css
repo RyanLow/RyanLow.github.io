@@ -1,7 +1,8 @@
 body {
   background-color: #F5F5F5;
-  font: 0.7em "Courier New", monospace;
+  font: 0.8em "Courier New", monospace;
   color: #000000;
+  margin: 0;
 }
 body > div {
   position: absolute;
@@ -70,7 +71,7 @@ a:hover {
   }
 }
 @media only screen and (max-height: 384px) {
-  body > div {
+  #text {
     position: relative;
     transform: none;
   }
