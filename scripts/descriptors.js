@@ -12,5 +12,7 @@ export default [
     "a trouble-maker",
     "in college",
     "a dog lover",
-    "poor"
+    "poor",
+    "attentive",
+    "kinda cute"
 ];
