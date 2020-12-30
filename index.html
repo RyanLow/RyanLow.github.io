@@ -1,73 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Ryan Low | Home</title>
-        <meta charset="utf-8">
-        <meta name="author" content="Ryan Low">
-        <meta name="description" content="The offical website of Ryan Low.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#F5F5F5">
-        <link rel="apple-touch-icon" href="images/rl-large.png">
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="images/rl.png">
-        <link rel="stylesheet" type="text/css" href="css/general.css">
-        <link rel="stylesheet" type="text/css" href="css/index.css">
-        <noscript>
-            <style>
-                body {
-                    display: block;
-                }
-            </style>
-        </noscript>
-    </head>
-    <body>
-        <header>1401 John F Kennedy Blvd.
-            Philadelphia, PA 19107
-            &copy; <span id="date">July 20, 1969</span>
-            
-            
-            Hello there,
-            
-            You have stumbled upon the creative outlet of a quiet <span id="age">&pi;</span> year old geek:
+
+<head>
+    <title>Ryan Low | Home</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Ryan Low">
+    <meta name="description" content="The offical website of Ryan Low.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#F5F5F5">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/rl-32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/rl-16.png">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="scripts/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <div id="text">
+        <div id="bio">
+            <h1>Hi, I am Ryan Low.</h1>
+            <p>I am currently studying computer science and mathematics at the University of Maryland. I have an interest in the ways the two subjects interact in modern applications.</p>
+            <p>I am <span id="descriptor">disappointed that you have JavaScript disabled.</span></p>
+        </div>
+        <div id="links">
             <ul>
-                <li>a mathematician,</li>
-                <li>a frisbee player,</li>
-                <li>a food-lover,</li>
-                <li>an art-lover,</li>
-                <li>a writer,</li>
-                <li>a programmer,</li>
-            </ul> among other things.
-            
-            Lucky for you, this website also lets you know me better. Maybe you want to read my resum&eacute;, or see what I'm up to, or even discuss a way to improve my website. Whatever it is, if you look deep enough, you can find all these things and more here.
-            
-            Do not be shy. I am a friend, after all, and if I'm not, I hope to be someday.
-        </header>
-        <main>
-            <span>Yours truly,</span>
-            <img title="Ryan Low" src="images/ryan-low.png">
-            <span>Ryan Low</span>
-        </main>
-        <footer>
-            <section>
-                <span>P.S. Find me via</span>
-                <ul>
-                    <li><a href="mailto:hello@ryanlow.me">Email</a></li>
-                    <li><a href="https://twitter.com/ryanwlow">Twitter</a></li>
-                    <li><a href="https://www.instagram.com/rwlow/">Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/in/ryanwlow">LinkedIn</a></li>
-                </ul>
-            </section>
-            <nav>
-                <span>P.P.S.</span>
-                <ul>
-                    <li><a href="/resume.pdf">Resum&eacute;</a></li>
-                    <li><a href="https://github.com/RyanLow">GitHub</a></li>
-                    <li><a href="/work">Work</a></li>
-                </ul>
-            </nav>
-        </footer>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-        <script src="scripts/index.js"></script>
-        <script src="scripts/transitions.js"></script>
-    </body>
+                <li><a href="mailto:hello@ryanlow.me">Email</a></li>
+                <li><a href="https://github.com/RyanLow">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/ryanwlow">LinkedIn</a></li>
+                <li><a href="/resume.pdf">Resume</a></li>
+                <li><a href="/workspace">Workspace</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="window">
+    </div>
+    <script src="scripts/typeit.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=Array.prototype.fill%2CIntersectionObserver%2CObject.assign%2CPromise%2CArray.from%2CArray.prototype.find%2CMath.sign"></script>
+    <script type="module" src="scripts/typeit-index.js"></script>
+</body>
+
 </html>

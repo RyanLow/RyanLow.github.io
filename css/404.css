@@ -1,6 +1,6 @@
 body {
   background-color: #F5F5F5;
-  font: 0.7em "Courier New", monospace;
+  font: 0.9em "Courier New", monospace;
   color: #000000;
 }
 body > div {
@@ -39,33 +39,6 @@ a:hover {
     padding: 0 48px;
   }
 }
-#bio h1 {
-  margin: 0;
-}
-#bio p {
-  margin: 1.5em 0;
-}
-
-#links ul {
-  list-style: none;
-  margin: 3em 0 0;
-  padding: 0;
-}
-#links li {
-  display: inline;
-  line-height: 1.5em;
-  margin: 0 0.8em 0 0;
-}
-#links li:last-child {
-  margin: 0;
-}
-
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 1.2em;
-  }
-
-  #text {
-    width: 600px;
-  }
+h2 {
+  margin-top: 0;
 }

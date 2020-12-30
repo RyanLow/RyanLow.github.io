@@ -1,0 +1,54 @@
+body {
+  background-color: #262626;
+  font: 0.9em "Courier New", monospace;
+  color: #FFFFFF;
+}
+body > div {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  background: #3399FF;
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 1em;
+  }
+  body > div {
+    padding: 0 48px;
+  }
+}
+body > div {
+  text-align: center;
+}
+
+p {
+  display: inline;
+}
+
+@media only screen and (min-width: 480px) {
+  p {
+    margin-right: 2em;
+  }
+}
