@@ -1,18 +1,20 @@
+// I am...
 export default [
-    "a student",
     "a programmer",
     "a mathematician",
+    "a student",
     "a frisbee player",
     "a food lover",
     "an art lover",
-    "a writer",
     "an engineer",
     "a problem-solver",
     "a thinker",
+    "a writer",
     "a trouble-maker",
     "in college",
     "a dog lover",
-    "poor",
     "attentive",
+    "poor",
+    "a derp",
     "kinda cute"
 ];
