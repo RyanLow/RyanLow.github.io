@@ -4,7 +4,7 @@ body {
   color: #d0d0d0;
   margin: 0;
 }
-body > div {
+body > :first-child {
   position: absolute;
   top: 50%;
   left: 0;
@@ -42,11 +42,11 @@ a:hover {
   body {
     font-size: 1em;
   }
-  body > div {
+  body > :first-child {
     padding: 48px;
   }
 }
-body > div {
+body > :first-child {
   text-align: center;
 }
 
