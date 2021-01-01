@@ -1,8 +1,27 @@
-import descriptors from './descriptors.js';
+// I am...
+let descriptors = [
+    "a programmer",
+    "a mathematician",
+    "a student",
+    "a frisbee player",
+    "a food lover",
+    "an art lover",
+    "an engineer",
+    "a problem-solver",
+    "a thinker",
+    "a writer",
+    "a trouble-maker",
+    "in college",
+    "a dog lover",
+    "attentive",
+    "poor",
+    "a derp",
+    "kinda cute"
+];
 
 document.getElementById('descriptor').innerHTML = '';
 
-let typeItInstance = new TypeIt('#descriptor', {
+new TypeIt('#descriptor', {
     strings: descriptors.map(desc => desc + '.'),
     speed: 100,
     deleteSpeed: 50,
