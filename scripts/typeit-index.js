@@ -1,18 +1,18 @@
 "use strict";
 
 // I am...
-var descriptors = ["a programmer", "a mathematician", "a student", "a frisbee player", "a food lover", "an art lover", "an engineer", "a problem-solver", "a thinker", "a writer", "a trouble-maker", "in college", "a dog lover", "attentive", "poor", "a derp", "kinda cute"];
+var descriptors = ["a programmer", "a mathematician", "a student", "a frisbee player", "a food lover", "an art admirer", "an engineer", "a problem-solver", "a deep thinker", "a writer", "in college", "a trouble-maker", "a dog lover", "poor", "a derp", "kinda cute"];
 document.getElementById('descriptor').innerHTML = '';
 new TypeIt('#descriptor', {
   strings: descriptors.map(function (desc) {
     return desc + '.';
   }),
-  speed: 100,
-  deleteSpeed: 50,
-  nextStringDelay: [2500, 1500],
-  startDelay: 1500,
+  speed: 75,
+  deleteSpeed: 40,
+  nextStringDelay: [4000, 1700],
+  startDelay: 1700,
   breakLines: false,
   lifeLike: true,
   loop: true,
-  loopDelay: [1500, 2500]
+  loopDelay: [1700, 4000]
 }).go();
