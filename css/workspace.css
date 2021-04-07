@@ -1,6 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 body {
   background-color: #262626;
-  font: 0.9em "Courier", monospace;
+  font: 0.9em "Courier Prime", monospace;
   color: #d0d0d0;
   margin: 0;
 }

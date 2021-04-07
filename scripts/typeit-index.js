@@ -1,8 +1,8 @@
 "use strict";
 
-// I am...
+document.getElementById('descriptor').innerHTML = ''; // I am...
+
 var descriptors = ["a programmer", "a mathematician", "a student", "a frisbee player", "a food lover", "an art admirer", "an engineer", "a problem-solver", "a deep thinker", "a writer", "in college", "a trouble-maker", "a dog lover", "poor", "a derp", "kinda cute"];
-document.getElementById('descriptor').innerHTML = '';
 new TypeIt('#descriptor', {
   strings: descriptors.map(function (desc) {
     return desc + '.';
