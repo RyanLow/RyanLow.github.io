@@ -5,7 +5,7 @@ body {
   color: #000000;
   margin: 0;
 }
-body > :first-child {
+body > div {
   position: absolute;
   top: 50%;
   left: 0;
@@ -43,7 +43,7 @@ a:hover {
   body {
     font-size: 1em;
   }
-  body > :first-child {
+  body > div {
     padding: 48px;
   }
 }
@@ -69,15 +69,13 @@ a:hover {
 }
 
 @media only screen and (min-width: 768px) {
-  body {
+  body > div {
     font-size: 1.2em;
-  }
-  body > :first-child {
     width: 600px;
   }
 }
 @media only screen and (max-height: 384px) {
-  body > :first-child {
+  body > div {
     position: relative;
     transform: none;
   }

@@ -5,7 +5,7 @@ body {
   color: #000000;
   margin: 0;
 }
-body > :first-child {
+body > div {
   position: absolute;
   top: 50%;
   left: 0;
@@ -43,7 +43,7 @@ a:hover {
   body {
     font-size: 1em;
   }
-  body > :first-child {
+  body > div {
     padding: 48px;
   }
 }
