@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 body {
   background-color: #262626;
-  font: 0.9em "Courier Prime", monospace;
+  font: 0.78em "Courier Prime", monospace;
   color: #d0d0d0;
   margin: 0;
 }
@@ -47,16 +47,15 @@ a:hover {
     padding: 48px;
   }
 }
-body > div {
-  text-align: center;
+ul {
+  margin: 0;
+  padding-left: 24px;
 }
 
-p {
-  display: inline;
+li {
+  line-height: 1.5em;
 }
 
-@media only screen and (min-width: 480px) {
-  p {
-    margin-right: 2em;
-  }
+li:last-child {
+  list-style-type: none;
 }
