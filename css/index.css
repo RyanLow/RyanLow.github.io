@@ -3,18 +3,16 @@ body {
   background-color: #f5f5f5;
   font: 0.78em "Courier Prime", monospace;
   color: #000000;
-  margin: 0;
-}
-body > div {
-  position: absolute;
-  top: 50%;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
   right: 0;
-  transform: translateY(-50%);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  margin: 0;
   padding: 24px;
 }
 
@@ -42,41 +40,45 @@ a:hover {
 @media only screen and (min-width: 480px) {
   body {
     font-size: 1em;
-  }
-  body > div {
     padding: 48px;
   }
 }
-#bio h1 {
+@media only screen and (max-height: 384px) {
+  body {
+    position: relative;
+  }
+}
+body {
+  align-items: flex-start;
+}
+
+article h1 {
   margin: 0;
 }
-#bio p {
+article p {
   margin: 1.5em 0;
 }
 
-#links ul {
+nav ul {
   list-style: none;
   margin: 3em 0 0;
   padding: 0;
 }
-#links li {
+nav li {
   display: inline;
   line-height: 1.5em;
   margin: 0 0.8em 0 0;
 }
-#links li:last-child {
+nav li:last-child {
   margin: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  body > div {
+  body {
     font-size: 1.2em;
-    width: 600px;
+    align-items: center;
   }
-}
-@media only screen and (max-height: 384px) {
-  body > div {
-    position: relative;
-    transform: none;
+  body > * {
+    width: 600px;
   }
 }

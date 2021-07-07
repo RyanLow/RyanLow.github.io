@@ -3,18 +3,16 @@ body {
   background-color: #f5f5f5;
   font: 0.9em "Courier Prime", monospace;
   color: #000000;
-  margin: 0;
-}
-body > div {
-  position: absolute;
-  top: 50%;
-  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
   right: 0;
-  transform: translateY(-50%);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  margin: 0 auto;
+  bottom: 0;
+  left: 0;
+  margin: 0;
   padding: 24px;
 }
 
@@ -42,9 +40,12 @@ a:hover {
 @media only screen and (min-width: 480px) {
   body {
     font-size: 1em;
-  }
-  body > div {
     padding: 48px;
+  }
+}
+@media only screen and (max-height: 384px) {
+  body {
+    position: relative;
   }
 }
 h2 {
