@@ -39,7 +39,6 @@ a:hover {
 
 @media only screen and (min-width: 480px) {
   body {
-    font-size: 1em;
     padding: 48px;
   }
 }
@@ -68,13 +67,12 @@ nav li:last-child {
   margin: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   body {
-    font-size: 1.2em;
     align-items: center;
   }
   body > * {
-    width: 600px;
+    width: 480px;
   }
 }
 @media only screen and (max-height: 384px) {

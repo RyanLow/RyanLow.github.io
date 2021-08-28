@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 body {
   background-color: #f5f5f5;
-  font: 0.9em "Courier Prime", monospace;
+  font: 0.78em "Courier Prime", monospace;
   color: #000000;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,6 @@ a:hover {
 
 @media only screen and (min-width: 480px) {
   body {
-    font-size: 1em;
     padding: 48px;
   }
 }
