@@ -3,7 +3,7 @@
 document.getElementById('descriptor').innerHTML = ''; // I am...
 
 var descriptors = ["a programmer", "a mathematician", "a student", "a frisbee player", "a food lover", "an art admirer", "an engineer", "a problem-solver", "a deep thinker", "a writer", "in grad school", "a trouble-maker", "a dog lover", "poor", "a derp", "kinda cute"];
-new TypeIt('#descriptor', {
+var typeItInstance = new TypeIt('#descriptor', {
   strings: descriptors.map(function (desc) {
     return desc + '.';
   }),
@@ -16,3 +16,7 @@ new TypeIt('#descriptor', {
   loop: true,
   loopDelay: [1700, 4000]
 }).go();
+window.addEventListener('orientationchange', function () {
+  typeItInstance.reset();
+  typeItInstance.go();
+});

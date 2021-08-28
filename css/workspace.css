@@ -43,11 +43,6 @@ a:hover {
     padding: 48px;
   }
 }
-@media only screen and (max-height: 384px) {
-  body {
-    position: relative;
-  }
-}
 ul {
   margin: 0;
   padding-left: 24px;
