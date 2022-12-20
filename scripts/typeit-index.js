@@ -2,7 +2,7 @@
 
 document.getElementById('descriptor').innerHTML = ''; // I am...
 
-var descriptors = ["a programmer", "a mathematician", "a student", "a frisbee player", "a food lover", "an art admirer", "an engineer", "a problem-solver", "a deep thinker", "a writer", "in grad school", "a trouble-maker", "a dog lover", "poor", "a derp", "kinda cute"];
+var descriptors = ["a programmer", "a mathematician", "a frisbee player", "a food lover", "an art admirer", "an engineer", "a problem-solver", "a deep thinker", "a writer", "a reader", "a trouble-maker", "a dog lover", "poor", "a derp", "kinda cute"];
 new TypeIt('#descriptor', {
   strings: descriptors.map(function (desc) {
     return desc + '.';
